@@ -20,14 +20,22 @@ after the compression is done it will provide the milliseconds required to compr
 this project makes use of the following library:
 
 #include <iostream>
+
 #include <fstream>
+
 #include <string>
+
 #include <sstream>
+
 #include <thread>
+
 #include <vector>
+
 #include <atomic>
+
 #include <chrono>
- All these library allows us to perform multi threading for compression.
+
+All these library allows us to perform multi threading for compression.
 
 *OUTPUT*:
 ![Image](https://github.com/user-attachments/assets/0dee5491-3dd0-44f0-9706-9ad6fdb314ec)
