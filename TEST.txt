@@ -1,0 +1,1 @@
+This is a simple text file with words to test the multithreading compression and decompression.
