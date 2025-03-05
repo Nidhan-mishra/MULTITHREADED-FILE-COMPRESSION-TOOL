@@ -19,21 +19,21 @@ the project only contains one main file because it is very simple in nature.The 
 after the compression is done it will provide the milliseconds required to compress though multi threading and this is achvied through the "#include <chrono>" library.
 this project makes use of the following library:
 
-#include <iostream>
+"#include <iostream>"
 
-#include <fstream>
+"#include <fstream>"
 
-#include <string>
+"#include <string>"
 
-#include <sstream>
+"#include <sstream>"
 
-#include <thread>
+"#include <thread>"
 
-#include <vector>
+"#include <vector>"
 
-#include <atomic>
+"#include <atomic>"
 
-#include <chrono>
+"#include <chrono>"
 
 All these library allows us to perform multi threading for compression.
 
