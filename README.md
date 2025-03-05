@@ -13,27 +13,27 @@
 
 *DESCRIPTION*: 
 This project contains a very simple Multi threading file compression tool/system.In this the user can take a text file and compress it down to a resonable size.
-The project uses "Run-Length Encoding" to divide the file into chunks and then compress it , the project uses the "#include <thread>" library provided by c++ to 
+The project uses "Run-Length Encoding" to divide the file into chunks and then compress it , the project uses the "#include thread" library provided by c++ to 
 use multi threading in the project; it only uses 4 threads but the user can go into the code and manually change that aspects of the project.
 the project only contains one main file because it is very simple in nature.The project also provides the performance numbers in the program;
-after the compression is done it will provide the milliseconds required to compress though multi threading and this is achvied through the "#include <chrono>" library.
+after the compression is done it will provide the milliseconds required to compress though multi threading and this is achvied through the "#include chrono" library.
 this project makes use of the following library:
 
-"#include <iostream>"
+"#include iostream"
 
-"#include <fstream>"
+"#include fstream"
 
-"#include <string>"
+"#include string"
 
-"#include <sstream>"
+"#include sstream"
 
-"#include <thread>"
+"#include thread"
 
-"#include <vector>"
+"#include vector"
 
-"#include <atomic>"
+"#include atomic"
 
-"#include <chrono>"
+"#include chrono"
 
 All these library allows us to perform multi threading for compression.
 
